@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PixelNest - Portfolio Builder</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <div id="preloader">
+    <div class="spinner"></div>
+  </div>
+  <!-- Hero Section -->
+  <section class="hero" data-aos="fade-up">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Build Your Portfolio Effortlessly</h1>
+        <p>Design your dream portfolio with PixelNest — no coding, just creativity.</p>
+        <a href="#demo" class="cta-btn">🚀 See Demo</a>
+      </div>
+      <div class="hero-img">
+        <img
+          src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+          alt="PixelNest Portfolio Mockup">
+      </div>
+    </div>
+  </section>
+  <!-- Features Section -->
+  <section class="features" data-aos="fade-right">
+    <h2>Why Choose PixelNest?</h2>
+    <div class="features-container">
+      <div class="feature-card">
+        <i class="fas fa-magic"></i>
+        <h3>No Coding Required</h3>
+        <p>Create beautiful portfolios with drag & drop tools. No HTML needed.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>Fully Responsive</h3>
+        <p>Your site looks stunning on phones, tablets & desktops automatically.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-rocket"></i>
+        <h3>Launch in Minutes</h3>
+        <p>Pick a template, customize your content & go live instantly.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonials Section -->
+  <section class="testimonials" data-aos="zoom-in">
+    <h2>What Our Users Say</h2>
+    <div class="testimonials-container">
+
+      <div class="testimonial-card">
+        <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=350"
+          alt="User 1">
+        <h3>Sarah Ahmed</h3>
+        <p class="role">Frontend Intern</p>
+        <p>“PixelNest helped me launch a professional portfolio in just a day. Got 3 interviews the same week!”</p>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&h=350"
+          alt="User 2">
+        <h3>Ali Khan</h3>
+        <p class="role">Freelance Developer</p>
+        <p>“It’s like magic — beautiful templates, easy editing, and I didn’t write a single line of code.”</p>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&h=350"
+          alt="User 3">
+        <h3>Maria Iqbal</h3>
+        <p class="role">UI/UX Student</p>
+        <p>“Everything just works. Clean layouts, responsive design, and I loved the animations.”</p>
+      </div>
+    </div>
+  </section>
+  <!-- Pricing Section -->
+  <section class="pricing" data-aos="fade-left">
+    <h2>Simple Pricing for Every Stage</h2>
+    <div class="pricing-container">
+      <!-- Free Plan -->
+      <div class="price-card">
+        <h3>Free</h3>
+        <p class="price">$0<span>/mo</span></p>
+        <ul>
+          <li>1 Portfolio Template</li>
+          <li>No Custom Domain</li>
+          <li>Basic Support</li>
+        </ul>
+        <a href="#" class="pricing-btn">Start Free</a>
+      </div>
+      <!-- Pro Plan (Highlighted) -->
+      <div class="price-card pro">
+        <h3>Pro</h3>
+        <p class="price">$9<span>/mo</span></p>
+        <ul>
+          <li>All Templates Unlocked</li>
+          <li>Custom Domain</li>
+          <li>Advanced Analytics</li>
+          <li>Email Support</li>
+        </ul>
+        <a href="#" class="pricing-btn active">Get Pro</a>
+      </div>
+      <!-- Team Plan -->
+      <div class="price-card">
+        <h3>Team</h3>
+        <p class="price">$25<span>/mo</span></p>
+        <ul>
+          <li>Everything in Pro</li>
+          <li>Team Collaboration</li>
+          <li>Priority Support</li>
+        </ul>
+        <a href="#" class="pricing-btn">Start Team</a>
+      </div>
+    </div>
+  </section>
+  <!-- Final Call to Action -->
+  <section class="cta-final" data-aos="fade-up">
+    <h2>Ready to Build Your Dream Portfolio?</h2>
+    <p>Start free today. No credit card required.</p>
+    <a href="#" class="cta-final-btn">🚀 Get Started Now</a>
+  </section>
+  <!-- Footer Section -->
+  <footer class="footer" data-aos="fade-up">
+    <div class="footer-content">
+      <h3>PixelNest</h3>
+      <p>© 2025 PixelNest. Built by Amna Zafar 💻</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+  <a href="#" class="back-to-top" title="Back to Top">↑</a>
+  <script>
+    // Preloader fade out
+    window.addEventListener('load', () => {
+      document.getElementById('preloader').style.display = 'none';
+    });
+    // Show back to top on scroll
+    window.addEventListener("scroll", function () {
+      const btn = document.querySelector(".back-to-top");
+      btn.style.display = window.scrollY > 200 ? "block" : "none";
+    });
+  </script>
+</body>
+
+</html>
